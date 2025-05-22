@@ -1,0 +1,291 @@
+.bg1
+{
+    background-color: black;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+}
+*,*::before,*::after
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.grid-nav1
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item1
+{
+    margin-left:150px;
+    color: ghostwhite;
+    font-size: 40px;
+    font-weight: bold;
+}
+.grid-item2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 20px;
+    column-gap: 40px;
+    justify-content: end;
+}
+.grid-item2 > div
+{
+    font-size: 22px;
+
+}
+.item5
+{
+margin-right:200px;
+}
+.grid-item2 > div > a 
+{
+    color: ghostwhite;
+    text-decoration: none;
+    position:relative;
+}
+.grid-item2 > div > a::after
+{
+    content: "";
+    position: absolute;
+    background-color: #ff004f;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.grid-item2 > div > a:hover::after
+{
+    width: 100%;
+}
+
+.heading1
+{
+    margin-top: 150px;
+    margin-left:150px;
+}
+.head1
+{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.head2
+{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.bg2
+{
+    background-color: rgb(18, 18, 18);
+    margin-top:200px;
+}
+.grid-about
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 100px;
+    column-gap:40px;
+}
+.grid-item3 > img
+{
+    width: 350px;
+    height: 500px;
+    margin-left: 150px;
+    border-radius:40px;
+}
+.ab1
+{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.ab2
+{
+    margin-top: 0px;
+    font-size:15px;
+    margin-right: 200px;
+}
+.tab-content{
+     margin-left: 20px;
+}
+.myservices{
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right:200px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.card1{
+    background-color: rgb(27, 26, 26);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    transition: background-color 0.5s, transform 0.5s;
+
+}
+.card1:hover{
+    background-color: rgb(240, 73, 126);
+    transform: translateY(-10px);
+}
+.card1 >div{
+    text-decoration: none;
+    color: ghostwhite;
+
+}
+.card1 >p{
+    font-size: 16px;
+
+}
+.card1 >a{
+     text-decoration: none;
+    color: ghostwhite;
+    font-size: 14px;
+}
+.grid-item7 
+{
+    margin-right: 200px;
+}
+.portfolio
+{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.p1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.grid-portfolio
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+.portfolio >div >img
+{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+.grid-item10
+{
+    margin-right: 200px;
+}
+.portfolio >p >a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.p2
+{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ff004f;
+    margin-top: 50px;
+    margin-left: 520px;
+    margin-right: 520px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.p2:hover
+{
+    background-color: #ff004f;
+}
+.Contact
+{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.grid-contact
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+}
+.grid-item11 >div
+{
+    margin-top: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #ff004f;
+}
+.grid-item11 >p
+{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.grid-item11 >button 
+{
+    color: ghostwhite;
+    background-color: #ff004f;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.grid-item11 > button >a
+{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.grid-item12
+{
+    margin-top: 0px;
+}
+.grid-item12 > form >div
+{
+    margin-top: 30px;
+}
+input{
+    background-color: rgb(47, 46, 46);
+    width:600px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    color: ghostwhite;
+}
+::placeholder
+{
+    padding-left: 20px;
+}
+textarea{
+    background-color: rgb(47, 46, 46);
+    border: none;
+    border-radius: 15px;
+    color: ghostwhite;
+}
+textarea::placeholder
+{
+    padding-top: 20px;
+}
+.grid-item12 > form > div > button{
+    color: ghostwhite;
+    background-color: #ff004f;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 100px;
+    height: 50px;
+}
+.copyrights
+{
+    background-color: rgb(70, 69, 69);
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    color: ghostwhite;
+}
