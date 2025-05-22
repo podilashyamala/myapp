@@ -168,13 +168,13 @@ margin-right:200px;
 {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 50px;
+    column-gap: 30px;
 }
-.portfolio >div >img
+.grid-portfolio >div >img
 {
     width: 300px;
     height: 400px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .grid-item10
 {
